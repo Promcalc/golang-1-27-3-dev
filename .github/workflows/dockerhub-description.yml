@@ -2,10 +2,11 @@ name: Update Docker Hub Description
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths:
       - DOCKERHUB.md
       - .github/workflows/dockerhub-description.yml
+  workflow_dispatch: # Позволяет запускать вручную
 
 jobs:
   update-description:
