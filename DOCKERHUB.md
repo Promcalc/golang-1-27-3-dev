@@ -25,3 +25,5 @@ docker run -d --name go-dev \
 ## Ссылки
 
 - [Исходный код на GitHub](https://github.com/Promcalc/golang-1-27-3-dev)
+
+## Дополнения
